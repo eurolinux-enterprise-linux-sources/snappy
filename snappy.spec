@@ -1,6 +1,6 @@
 Name:           snappy
 Version:        1.1.0
-Release:        3%{?dist}
+Release:        1%{?dist}
 Summary:        Fast compression and decompression library
 
 Group:          System Environment/Libraries
@@ -69,12 +69,6 @@ make check
 
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.1.0-3
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.0-2
-- Mass rebuild 2013-12-27
-
 * Wed Jul 17 2013 Dave Anderson <anderson@redhat.com> 1.1.0-1.el7
 - Removed unnecessary gtest-devel BuildRequires
 
